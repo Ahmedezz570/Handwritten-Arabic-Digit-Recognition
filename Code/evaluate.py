@@ -45,7 +45,7 @@ def evaluate_model():
         print("Please ensure train.py was run first.")
         return
 
-    # Load the best model
+
     model = load_model(MODEL_PATH)
 
 

@@ -6,14 +6,14 @@ This project implements a Convolutional Neural Network (CNN) to achieve high-acc
 
 ## 2. Dataset
 
-* **Dataset Name:** Extended Arabic Handwritten Digits Dataset (AHDD-like distribution).
+* **Dataset Name:** Extended Arabic Handwritten Digits Dataset .
 * **Total Images:** 70,000 images (60,000 for training/validation, 10,000 for testing).
 * **Image Size:** $28 \times 28 \times 1$ (Grayscale).
 
 ## **Dataset Link:**
-## [Insert the actual Kaggle or source link here, e.g., https://www.kaggle.com/datasets/mloey1/ahdd1/data]
+## [https://www.kaggle.com/datasets/mloey1/ahdd1/data]
 
-## 🛠 3. How to Install Dependencies
+##  3. How to Install Dependencies
 
 The project requires Python 3.x and the following libraries. It is recommended to install them in a virtual environment.
 
