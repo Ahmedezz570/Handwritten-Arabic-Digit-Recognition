@@ -11,6 +11,8 @@ from dataset import load_and_prepare_data, INPUT_SHAPE, NUM_CLASSES
 
 from model import build_model
 
+from utils import plot_and_save_learning_curves
+
 
 BATCH_SIZE = 128
 EPOCHS = 30
@@ -64,6 +66,8 @@ def main():
     )
 
     model.save(os.path.join(MODEL_DIR, "final_model.h5"))
+
+    plot_and_save_learning_curves(history)
 
 
 if __name__ == "__main__":

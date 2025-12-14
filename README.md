@@ -45,6 +45,11 @@ Displays the Confusion Matrix.
 
 Displays the overall Test Accuracy and Test Loss.
 
+##   Model Inference Example
+
+To demonstrate the model's high accuracy, here is a sample prediction image showing how the model classifies unseen handwritten digits from the test set:
+
+![Sample Predictions from the Trained CNN](/Code/results/sample_predictions.png)
 ## How to Load the Saved Model for Inference
 To use the trained model for making predictions on new data (inference), you can load the saved H5 file:
 ```
